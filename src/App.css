@@ -4,9 +4,22 @@
 }
 
 .item-img {
-width: 400px;
+  width: 400px;
 }
 .main {
   display: flex;
   justify-content: center;
+}
+
+.win {
+  border: 10px solid gold;
+  color: gold;
+}
+.lose {
+  border: 10px solid red;
+  color: red;
+}
+.tie {
+  border: 10px solid purple;
+  color: purple;
 }
