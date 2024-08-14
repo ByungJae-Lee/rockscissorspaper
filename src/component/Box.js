@@ -1,14 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Box = (props) => {
   return (
-    <div>
-      <div className="box">
-        블랙핑크멤버{props.num}
-        <p>{props.name}</p>
-      </div>
+    <div className='box'>
+      <h1>{props.title}</h1>
+      <img
+        className="item-img"
+        src={props.item && props.item.img}
+      />
+      <h2>Win</h2>
     </div>
-  )
-}
+  );
+};
 
-export default Box
+export default Box;
